@@ -4,7 +4,7 @@
 
 PRISM-DynaSense is a small, local research application combining an event-driven release model, the installed [PRISM](https://github.com/lyullee/prism) thermal-dose/probit functions, and [SALib](https://salib.readthedocs.io/) Sobol sensitivity analysis. It exports an interactive offline dashboard, reproducible input/output files, and PNG/SVG figures.
 
-[한국어 설명](README_ko.md) · [User manual](docs/USER_MANUAL_KO.md) · [Model and architecture](docs/ARCHITECTURE.md) · [Registration preparation](docs/REGISTRATION_KO.md)
+[Korean overview](README_ko.md) · [User manual (Korean)](docs/USER_MANUAL_KO.md) · [Model and architecture](docs/ARCHITECTURE.md) · [Registration preparation (Korean)](docs/REGISTRATION_KO.md)
 
 ![Actual calculation dashboard](docs/screenshots/desktop.png)
 
