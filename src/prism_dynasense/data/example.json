@@ -1,0 +1,48 @@
+{
+  "schema_version": "1",
+  "scenario": {
+    "name": "가압 수소 누출·점화·차단",
+    "fluid": "Hydrogen",
+    "initial_pressure_pa": 2000000.0,
+    "temperature_k": 293.15,
+    "upstream_volume_m3": 0.6,
+    "isolated_volume_m3": 0.025,
+    "hole_diameter_m": 0.004,
+    "discharge_coefficient": 0.8,
+    "isolation_time_s": 10.0,
+    "ignition_time_s": 1.0,
+    "receptor_distance_m": 1.0,
+    "radiant_fraction": 0.1,
+    "atmospheric_transmissivity": 0.9,
+    "horizon_s": 40.0,
+    "time_step_s": 0.5
+  },
+  "variables": [
+    {
+      "name": "hole_diameter_m",
+      "lower": 0.002,
+      "upper": 0.006
+    },
+    {
+      "name": "isolated_volume_m3",
+      "lower": 0.01,
+      "upper": 0.05
+    },
+    {
+      "name": "isolation_time_s",
+      "lower": 4.0,
+      "upper": 16.0
+    },
+    {
+      "name": "receptor_distance_m",
+      "lower": 0.75,
+      "upper": 2.5
+    },
+    {
+      "name": "radiant_fraction",
+      "lower": 0.05,
+      "upper": 0.15
+    }
+  ],
+  "seed": 20261022
+}

@@ -1,0 +1,25 @@
+{
+  "software": "PRISM-DynaSense",
+  "version": "0.1.0",
+  "python": "3.12.14",
+  "input_sha256": "cfa1d2b0605dc5c30922e85c9bc5080760af2c65cb773396aaae49a120136da7",
+  "dependencies": {
+    "prism-risk": "0.6.8",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "SALib": "1.6.0",
+    "pydantic": "2.14.1"
+  },
+  "source_sha256": {
+    "__init__.py": "52ca6441b3d2576a16333e6462894af2ce4d839632a274a7756bba6a1419dc7c",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "cli.py": "25afe672f3395f6d502247ecba08bbed88f8bc6e78b64c227c338dea74e8b192",
+    "contracts.py": "1065e56694a10a25d0fec11880a8b3488d2732f4fe1e8069a58bebeb08289501",
+    "io.py": "09ed11d299ae23122ed7fd93168e220dafac5edffb9fa9c1907d72739bb68b96",
+    "prism_backend.py": "b4e92cdda74f0526f2a09aba043cc685d465abbb96eff8d7ee7d9a54e9137017",
+    "report.py": "942ca5c1f62ae315356ca40b96cab65417a41dd9530dd213f226ba210d8ff606",
+    "sensitivity.py": "7a1c65dc6186731ba6813d6ad45039f4d0f77809920640847eddf71b2845a4da",
+    "simulation.py": "7b5fbbbd92283601212d6592b7190e9689007f7109313eae0dd6f3c179cbaba7"
+  },
+  "reproduction": "same validated input, source hashes, dependency versions, seed and sampling levels"
+}

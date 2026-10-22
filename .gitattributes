@@ -1,0 +1,2 @@
+# Preserve exact source/export bytes used in reproducibility fingerprints.
+* -text

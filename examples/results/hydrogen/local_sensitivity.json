@@ -1,0 +1,140 @@
+{
+  "baseline": {
+    "released_mass_kg": 0.15246153963656894,
+    "peak_release_kg_s": 0.012520463965932128,
+    "peak_heat_flux_w_m2": 10631.014170006385,
+    "thermal_dose": 2448219.4015020146,
+    "conditional_harm_probability": 9.954481545032534e-05,
+    "dose_at_25pct": 1958100.4067251412,
+    "dose_at_50pct": 2448063.877234789,
+    "dose_at_75pct": 2448219.4015020146
+  },
+  "rows": [
+    {
+      "input": "hole_diameter_m",
+      "lower": 0.002,
+      "upper": 0.006,
+      "outputs_at_lower": {
+        "released_mass_kg": 0.06681037006428081,
+        "peak_release_kg_s": 0.003130115991483032,
+        "peak_heat_flux_w_m2": 2682.003983224328,
+        "thermal_dose": 668210.7615078192,
+        "conditional_harm_probability": 9.315881399629689e-13,
+        "dose_at_25pct": 329348.9668749367,
+        "dose_at_50pct": 555654.8621329737,
+        "dose_at_75pct": 638143.5591798549
+      },
+      "outputs_at_upper": {
+        "released_mass_kg": 0.27598444832413105,
+        "peak_release_kg_s": 0.02817104392334729,
+        "peak_heat_flux_w_m2": 23560.40185582336,
+        "thermal_dose": 5712443.389826778,
+        "conditional_harm_probability": 0.060436818550081206,
+        "dose_at_25pct": 5185094.285712016,
+        "dose_at_50pct": 5712443.389826778,
+        "dose_at_75pct": 5712443.389826778
+      }
+    },
+    {
+      "input": "isolated_volume_m3",
+      "lower": 0.01,
+      "upper": 0.05,
+      "outputs_at_lower": {
+        "released_mass_kg": 0.13152120444087423,
+        "peak_release_kg_s": 0.012520463965932128,
+        "peak_heat_flux_w_m2": 10627.848677619906,
+        "thermal_dose": 2151764.3825698905,
+        "conditional_harm_probability": 2.5543747653511417e-05,
+        "dose_at_25pct": 1953914.7456123915,
+        "dose_at_50pct": 2151764.3825698905,
+        "dose_at_75pct": 2151764.3825698905
+      },
+      "outputs_at_upper": {
+        "released_mass_kg": 0.18761461959272752,
+        "peak_release_kg_s": 0.012520463965932128,
+        "peak_heat_flux_w_m2": 10635.967215505047,
+        "thermal_dose": 2949302.062438392,
+        "conditional_harm_probability": 0.0005904007341540618,
+        "dose_at_25pct": 1964669.4051476482,
+        "dose_at_50pct": 2839038.1913349023,
+        "dose_at_75pct": 2949015.299574997
+      }
+    },
+    {
+      "input": "isolation_time_s",
+      "lower": 4.0,
+      "upper": 16.0,
+      "outputs_at_lower": {
+        "released_mass_kg": 0.08619090526128792,
+        "peak_release_kg_s": 0.012520463965932128,
+        "peak_heat_flux_w_m2": 10631.014170006385,
+        "thermal_dose": 1225744.2936550826,
+        "conditional_harm_probability": 1.9959529029556222e-08,
+        "dose_at_25pct": 1188560.440900533,
+        "dose_at_50pct": 1225744.2936550826,
+        "dose_at_75pct": 1225744.2936550826
+      },
+      "outputs_at_upper": {
+        "released_mass_kg": 0.21408746104274445,
+        "peak_release_kg_s": 0.012520463965932128,
+        "peak_heat_flux_w_m2": 10631.014170006385,
+        "thermal_dose": 3557800.520354246,
+        "conditional_harm_probability": 0.002861111571055841,
+        "dose_at_25pct": 1958100.405890984,
+        "dose_at_50pct": 3479042.395176376,
+        "dose_at_75pct": 3557800.520354246
+      }
+    },
+    {
+      "input": "receptor_distance_m",
+      "lower": 0.75,
+      "upper": 2.5,
+      "outputs_at_lower": {
+        "released_mass_kg": 0.15246153963656894,
+        "peak_release_kg_s": 0.012520463965932128,
+        "peak_heat_flux_w_m2": 18899.580746678017,
+        "thermal_dose": 5272545.0550998375,
+        "conditional_harm_probability": 0.039522077290159385,
+        "dose_at_25pct": 4217012.825947546,
+        "dose_at_50pct": 5272210.114242165,
+        "dose_at_75pct": 5272545.0550998375
+      },
+      "outputs_at_upper": {
+        "released_mass_kg": 0.15246153963656894,
+        "peak_release_kg_s": 0.012520463965932128,
+        "peak_heat_flux_w_m2": 1700.9622672010214,
+        "thermal_dose": 212655.67592724846,
+        "conditional_harm_probability": 0.0,
+        "dose_at_25pct": 170083.2716504441,
+        "dose_at_50pct": 212642.16687730397,
+        "dose_at_75pct": 212655.67592724846
+      }
+    },
+    {
+      "input": "radiant_fraction",
+      "lower": 0.05,
+      "upper": 0.15,
+      "outputs_at_lower": {
+        "released_mass_kg": 0.15246153963656894,
+        "peak_release_kg_s": 0.012520463965932128,
+        "peak_heat_flux_w_m2": 5315.5070850031925,
+        "thermal_dose": 971576.5133483144,
+        "conditional_harm_probability": 5.784304701883514e-10,
+        "dose_at_25pct": 777072.6613737126,
+        "dose_at_50pct": 971514.7935019643,
+        "dose_at_75pct": 971576.5133483144
+      },
+      "outputs_at_upper": {
+        "released_mass_kg": 0.15246153963656894,
+        "peak_release_kg_s": 0.012520463965932128,
+        "peak_heat_flux_w_m2": 15946.521255009577,
+        "thermal_dose": 4203767.426692126,
+        "conditional_harm_probability": 0.009740897768609036,
+        "dose_at_25pct": 3362198.1358916117,
+        "dose_at_50pct": 4203500.380426493,
+        "dose_at_75pct": 4203767.426692126
+      }
+    }
+  ],
+  "interpretation": "one-at-a-time declared endpoints; interactions are not represented"
+}

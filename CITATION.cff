@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this repository and the recorded version. Cite PRISM and SALib separately when their methods are used."
+title: PRISM-DynaSense
+type: software
+version: 0.1.0
+authors:
+  - name: PRISM-DynaSense contributors
+repository-code: 'https://github.com/lyullee/prism-dynasense'
+url: 'https://github.com/lyullee/prism-dynasense'
+license: MIT
+abstract: 'Local transient accident screening with PRISM thermal-dose/probit integration, direct-model Sobol sensitivity analysis, convergence gates, and offline visualization.'
